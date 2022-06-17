@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Questrial', sans-serif;
+}
+
+:root {
+    --color-text: #868686;
+    --color-text-1: #585858;
+    --Hover-icon: #FF9B42;
+}
+
+.box-banner-about {
+    width: 100%;
+    height: 273px;
+    padding: 85px 0 90px 0;
+    margin-bottom: 60px;
+    background: url('https://wpbingosite.com/wordpress/funori/wp-content/uploads/2022/04/bg-breadcrumb.jpg');
+    background-size: cover;
+    background-position: 0 90%;
+}
+
+.box-banner-about .in-banner-about {
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+}
+
+.in-banner-about .title-banner {
+    font-size: 55px;
+    font-weight: 400;
+    color: black;
+    opacity: 80%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.in-banner-about .box-path-about {
+    font-size: 13px;
+    color: var(--color-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box-path-about .icon i {
+    color: #868686;
+    /* width: 17px; */
+    margin-left: 0;
+}
+
+.box-introduce {
+    width: 100%;
+    min-height: 1px;
+    padding: 0 15px;
+    margin-bottom: 40px;
+}
+
+.box-introduce .in-introduce {
+    width: 100%;
+    min-height: 1px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-introduce .in-introduce .logo {
+    width: 100%;
+    height: 98px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.box-introduce .in-introduce .logo svg {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.in-introduce .title-introduce {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.in-introduce .title-introduce .in-title-introduce {
+    font-size: 45px;
+}
+
+.in-introduce .on-title {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.in-introduce .on-title p {
+    font-size: 14px;
+    color: var(--color-text);
+}
+
+.box-banner-about-2 {
+    width: 100%;
+    min-height: 1px;
+    padding: 0 15px;
+    margin-bottom: 80px;
+}
+
+.box-banner-about-2 .in-box-banner {
+    width: 100%;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.in-box-banner img {
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease;
+}
+
+.in-box-banner img:hover  {
+    transform: scale(1.13, 1.13);
+}
+
+.box-introduce-1 {
+    width: 100%;
+    min-width: 1px;
+    padding: 0 15px;
+    margin-bottom: 80px;
+    display: flex;
+}
+
+.box-introduce-1 .box-picture {
+    width: 100%;
+    min-width: 1px;
+    padding: 0 15px;
+}
+
+.box-introduce-1 .box-picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.box-introduce-1 .box-content-1 {
+    width: 100%;
+    min-width: 1px;
+    padding: 0 15px;
+}
+
+.box-introduce-1 .box-content-1 .in-first-title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 23.8px;
+}
+
+.box-introduce-1 .box-content-1 .in-second-title {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.box-content-1 .all-box-boder-in {
+    width: 100%;
+    height: 27px;
+}
+
+.box-introduce-1 .box-content-1 .box-boder-in {
+    width: 50px;
+    height: 2px;
+    line-height: 23.8px;
+    background-color: var(--color-text);
+}
+
+.box-introduce-1 .in-container {
+    width: 100%;
+    min-height: 1px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--color-text);
+}
+
+.box-padding {
+    width: 100%;
+    height: 76px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.box-introduce-2 {
+    width: 100%;
+    min-height: 1px;
+    padding: 0 15px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.box-introduce-2 .in-introduce-2 {
+    width: 100%;
+    min-height: 1px;
+    padding: 0 15px;
+}
+
+.in-introduce-2 .title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 23.8px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.in-introduce-2 h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.in-introduce-2 .border {
+    width: 50px;
+    height: 2px;
+    margin: 0 auto;
+    border-top: 1px solid var(--color-text);
+    background-color: var(--color-text);
+}
+
+.box-map {
+    width: 100%;
+    min-height: 1px;
+    padding: 0 15px;
+    margin-bottom: 80px;
+    display: flex;
+}
+
+.box-map iframe {
+    width: 100%;
+    height: 665px;
+    padding: 0 15px;
+}
+
+.box-map .box-iframe {
+    width: 100%;
+    height: 665px;
+    position: relative;
+}
+
+.box-map .in-frame-1 {
+    position: absolute !important;
+    bottom: 0;
+    left: 15px;
+    width: 405px;
+    height: 270px;
+    padding: 40px;
+    background-color: var(--Hover-icon);
+    clip-path: polygon(76% 0, 100% 23%, 100% 100%, 0 100%, 0 0);
+}
+
+.in-frame-1 svg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 18px;
+    fill: white;
+}
+
+.in-frame-1 h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.in-frame-1 .location {
+    color: white;
+    font-size: 16px;
+}
